@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     CGFloat screenWidth = [[UIScreen mainScreen] bounds].size.width;
-
+    //测试一下github更新是否有问题？
     ZFPageControl *zfControl = [[ZFPageControl alloc] initWithFrame:CGRectMake(0, 100, screenWidth, 20)];
     zfControl.numberOfPages = 5;
     [self.view addSubview:zfControl];
