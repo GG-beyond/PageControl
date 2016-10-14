@@ -1,3 +1,3 @@
 # PageControl
 
-![image](https://github.com/GG-beyond/PageControl/PageControl.gif ) 
+![image](https://github.com/GG-beyond/PageControl/ZFPageControl/PageControl.gif) 
