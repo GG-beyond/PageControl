@@ -21,6 +21,7 @@
     ZFPageControl *zfControl = [[ZFPageControl alloc] initWithFrame:CGRectMake(0, 100, screenWidth, 20)];
     zfControl.numberOfPages = 5;
     [self.view addSubview:zfControl];
+    
 }
 
 
