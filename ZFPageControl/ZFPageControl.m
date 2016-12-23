@@ -7,9 +7,12 @@
 //
 
 #import "ZFPageControl.h"
+
 @interface ZFPageControl ()
 @property (nonatomic, strong) NSMutableArray *allItems;
 @end
+
+
 @implementation ZFPageControl
 - (instancetype)initWithFrame:(CGRect)frame{
     if (self = [super initWithFrame:frame]) {
@@ -104,11 +107,13 @@
         make.width.equalTo(20);
     }];
     
+    //添加了注释
     [UIView animateWithDuration:0.25 animations:^{
         [self layoutIfNeeded];
     }];
     _currentPage = sender.tag;
-    
+    _currentPage = sender.tag;
+
 }
 
 
